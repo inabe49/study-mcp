@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "@inabe49/study-mcp",
+  "version": "0.0.1",
+  "description": "@inabe49/study-mcp",
+  "scripts": {
+    "run": "tsx ./src/index.ts"
+  },
+  "author": "inabe49",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0"
+  },
+  "volta": {
+    "node": "22.14.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
